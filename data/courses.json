@@ -1,0 +1,9 @@
+[
+	{
+		"id": "CSE310",
+		"name": "Applied Programming",
+		"location": "STC 301",
+		"capacity": "30",
+		"students": [0, 1]
+	}
+]

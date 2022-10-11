@@ -1,0 +1,70 @@
+# {
+#   getCoursesForStudent(studentId: 0) {
+#     name
+#   }
+# }
+
+# {
+#   getAllStudents {
+#     lastName
+#     email
+#     id
+#   }
+# }
+
+# {
+#   getStudent(studentId: 0) {
+#     firstName
+#     lastName
+#   }
+# }
+
+# {
+#   getAllCourses {
+#     id
+#     name
+#     students {
+#       id
+#       firstName
+#       lastName
+#       email
+#     }
+#   }
+# }
+
+# {
+#   getCoursesForStudent(studentId: 0) {
+#     name
+#   }
+# }
+
+# mutation {
+#   createStudent(input: {
+#     firstName: "Peyton",
+#     lastName: "Morris",
+#     email: "email@email.com"
+#   })
+
+# }
+
+# mutation {
+#   deleteStudent(studentId: 0)
+# }
+
+# mutation {
+#   enroll(studentId: 1, courseId: "CSE310")
+# }
+
+# mutation {
+#   createCourse(input: {
+#     id: "SAL101",
+#     name: "Salamanders for the uninitiated",
+#     location: "STC312",
+#     capacity: 500,
+#     students: []
+#   })
+# }
+
+# mutation {
+#   deleteCourse(courseId: "SAL101")
+# }
